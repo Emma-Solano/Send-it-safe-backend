@@ -77,7 +77,7 @@ app.locals.title = 'Send It Safe!';
 
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000'] // <== this will be the URL of our React app (it will be running on port 3000)
+  origin: ['http://localhost:3000', "https://send-it-safe-client-2.now.sh"] // <== this will be the URL of our React app (it will be running on port 3000)
 }));
 
 // ROUTES MIDDLEWARE STARTS HERE:
